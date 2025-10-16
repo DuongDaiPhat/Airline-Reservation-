@@ -15,7 +15,6 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![Unlicense License][license-shield]][license-url]
-<!-- [![LinkedIn][linkedin-shield]][linkedin-url] -->
 
 
 
@@ -96,7 +95,7 @@ Licensed under **MIT**, this project is open for you to fork, contribute, and ad
 
 
 <!-- BUILT WITH -->
-### 🏗️ Built With
+### Built With
 
 This project was developed using the following frameworks, libraries, and technologies:
 
@@ -243,25 +242,32 @@ Resources and tools that were helpful during the development of this project:
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [dotnet]: https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white
 [dotnet-url]: https://dotnet.microsoft.com/
+
 [csharp]: https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white
 [csharp-url]: https://learn.microsoft.com/dotnet/csharp/
+
 [winforms]: https://img.shields.io/badge/WinForms-0078D4?style=for-the-badge&logo=windows&logoColor=white
 [winforms-url]: https://learn.microsoft.com/dotnet/desktop/winforms/
+
 [sqlserver]: https://img.shields.io/badge/SQL%20Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white
 [sqlserver-url]: https://www.microsoft.com/sql-server
+
 [ef]: https://img.shields.io/badge/Entity%20Framework-512BD4?style=for-the-badge&logo=dotnet&logoColor=white
 [ef-url]: https://learn.microsoft.com/ef/
 
-[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
+[contributors-shield]: https://img.shields.io/github/contributors/DuongDaiPhat/Airline-Reservation-.svg?style=for-the-badge
 [contributors-url]: https://github.com/DuongDaiPhat/Airline-Reservation-/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
+
+[forks-shield]: https://img.shields.io/github/forks/DuongDaiPhat/Airline-Reservation-.svg?style=for-the-badge
 [forks-url]: https://github.com/DuongDaiPhat/Airline-Reservation-/network/members
-[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
+
+[stars-shield]: https://img.shields.io/github/stars/DuongDaiPhat/Airline-Reservation-.svg?style=for-the-badge
 [stars-url]: https://github.com/DuongDaiPhat/Airline-Reservation-/stargazers
-[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
+
+[issues-shield]: https://img.shields.io/github/issues/DuongDaiPhat/Airline-Reservation-.svg?style=for-the-badge
 [issues-url]: https://github.com/DuongDaiPhat/Airline-Reservation-/issues
-[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
-[license-url]: https://github.com/DuongDaiPhat/Airline-Reservation-/blob/master/LICENSE.txt
-<!-- [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/othneildrew -->
+
+[license-shield]: https://img.shields.io/github/license/DuongDaiPhat/Airline-Reservation-.svg?style=for-the-badge
+[license-url]: https://github.com/DuongDaiPhat/Airline-Reservation-/blob/master/LICENSE
+
 [product-screenshot]: images/screenshot.png
