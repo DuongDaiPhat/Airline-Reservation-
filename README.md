@@ -1,7 +1,5 @@
 # Airline-Reservation Structure
 
-# Airline-Reservation Structure
-
 ## Project Structure
 **Airline Reservation WinForms Application – Multi-Layered Project Structure (Domain, Application, Infrastructure, Presentation, Shared)**
 
