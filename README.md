@@ -99,10 +99,10 @@ Licensed under **MIT**, this project is open for you to fork, contribute, and ad
 
 This project was developed using the following frameworks, libraries, and technologies:
 
-* [![.NET][dotnet]][dotnet-url]
-* [![C#][csharp]][csharp-url]
-* [![WinForms][winforms]][winforms-url]
-* [![SQL Server][sqlserver]][sqlserver-url]
+* [![.NET][dotnet]][dotnet-url]  
+* [![C#][csharp]][csharp-url]  
+* [![WinForms][winforms]][winforms-url]  
+* [![SQL Server][sqlserver]][sqlserver-url]  
 * [![Entity Framework][ef]][ef-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -179,7 +179,7 @@ See the [open issues](https://github.com/othneildrew/Best-README-Template/issues
 
 
 <!-- CONTRIBUTING -->
-## Contributing
+## 🤝 Contributing
 
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions made by all members are greatly appreciated.
 
@@ -202,7 +202,7 @@ If you have a suggestion that would make this better, please fork the repo and c
 
 
 <!-- LICENSE -->
-## License
+## 📜 License
 
 Distributed under the Unlicense License. See `LICENSE.txt` for more information.
 
@@ -211,18 +211,20 @@ Distributed under the Unlicense License. See `LICENSE.txt` for more information.
 
 
 <!-- CONTACT -->
-## Contact
+## 📬 Contact
 
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
+My Name - [DuongDaiPhat](https://github.com/DuongDaiPhat)  
 
-Project Link: [https://github.com/DuongDaiPhat/Airline-Reservation-](https://github.com/DuongDaiPhat/Airline-Reservation-)
+[![Email](https://img.shields.io/badge/Email-duongphat521%40gmail.com-red?style=for-the-badge&logo=gmail&logoColor=white)](mailto:duongphat521@gmail.com) 
+
+Project Link: [Airline Reservation on GitHub](https://github.com/DuongDaiPhat/Airline-Reservation-)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
 <!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
+## 🙌 Acknowledgments
 
 Resources and tools that were helpful during the development of this project:
 
@@ -240,20 +242,20 @@ Resources and tools that were helpful during the development of this project:
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[dotnet]: https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white
-[dotnet-url]: https://dotnet.microsoft.com/
+[dotnet]: https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white  
+[dotnet-url]: https://dotnet.microsoft.com/  
 
-[csharp]: https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white
-[csharp-url]: https://learn.microsoft.com/dotnet/csharp/
+[csharp]: https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white  
+[csharp-url]: https://learn.microsoft.com/dotnet/csharp/  
 
-[winforms]: https://img.shields.io/badge/WinForms-0078D4?style=for-the-badge&logo=windows&logoColor=white
-[winforms-url]: https://learn.microsoft.com/dotnet/desktop/winforms/
+[winforms]: https://img.shields.io/badge/WinForms-0078D4?style=for-the-badge&logo=windows10&logoColor=white  
+[winforms-url]: https://learn.microsoft.com/dotnet/desktop/winforms/  
 
-[sqlserver]: https://img.shields.io/badge/SQL%20Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white
-[sqlserver-url]: https://www.microsoft.com/sql-server
+[sqlserver]: https://img.shields.io/badge/SQL%20Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white  
+[sqlserver-url]: https://www.microsoft.com/sql-server  
 
-[ef]: https://img.shields.io/badge/Entity%20Framework-512BD4?style=for-the-badge&logo=dotnet&logoColor=white
-[ef-url]: https://learn.microsoft.com/ef/
+[ef]: https://img.shields.io/badge/Entity%20Framework-512BD4?style=for-the-badge&logo=dotnet&logoColor=white  
+[ef-url]: https://learn.microsoft.com/ef/  
 
 [contributors-shield]: https://img.shields.io/github/contributors/DuongDaiPhat/Airline-Reservation-.svg?style=for-the-badge
 [contributors-url]: https://github.com/DuongDaiPhat/Airline-Reservation-/graphs/contributors
