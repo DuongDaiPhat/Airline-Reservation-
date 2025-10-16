@@ -1,5 +1,32 @@
 # Airline-Reservation Structure
-Airline Reservation Winform App
+
+# Airline-Reservation Structure
+
+## Project Structure
+**Airline Reservation WinForms Application – Multi-Layered Project Structure (Domain, Application, Infrastructure, Presentation, Shared)**
+
+Dự án được tổ chức theo **kiến trúc nhiều tầng (Clean/Layered Architecture)** để tách biệt rõ ràng phần nghiệp vụ, logic ứng dụng, hạ tầng, giao diện và tiện ích dùng chung. 
+
+### Các tầng chính
+
+- **Domain (AirlineReservation.Domain)**  
+  Chứa **Entities, ValueObjects, Enums, Interfaces** – đại diện cho lõi nghiệp vụ (Bookings, Flights, Payments, Users, Promotions...).  
+  → Đây là **business core**, độc lập với UI và database.  
+
+- **Application (AirlineReservation.Application)**  
+  Chứa **DTOs, Features, Services, Validators, Helpers, Mappings** – nơi triển khai logic điều phối và xử lý nghiệp vụ.  
+  → Đây là tầng **workflow/logic** của ứng dụng.  
+
+- **Infrastructure (AirlineReservation.Infrastructure)**  
+  Chứa **Persistence (DbContext, Migrations, Repositories), Logging, Email, PaymentGateway, FileStorage, Security**.  
+  → Đây là tầng **hạ tầng & tích hợp dịch vụ ngoài**.  
+
+- **Presentation (AirlineReservation.Presentation – WinForms)**  
+  Chứa **Forms (Admin, Staff, User), Controllers, ViewModels, Assets (Icons, Images, Styles)**.  
+  → Đây là **UI WinForms** của hệ thống.  
+
+- **Shared (AirlineReservation.Shared)**  
+  Chứa **Constants, Enums, Exceptions, Utils** – các thành phần dùng chung giữa các tầng. 
 
 ```
 ├── 📁 .git/ 🚫 (auto-hidden)
