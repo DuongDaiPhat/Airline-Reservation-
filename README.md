@@ -22,7 +22,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/DuongDaiPhat/Airline-Reservation-">
-    <img src="https://github.com/DuongDaiPhat/Airline-Reservation-/blob/main/Images/finallogo.png" alt="Logo">
+    <img src="https://github.com/DuongDaiPhat/Airline-Reservation-/blob/main/Images/finallogo.png" alt="Logo" width="350 px" height="120 px">
   </a>
 
   <h2 align="center">Airline-Reservation-System</h2>
@@ -133,7 +133,7 @@ _Below is an example of how you can instruct your audience on installing and set
    Airline-Reservation-.sln
    ```
 3. Restore NuGet packages in Package Manager Console
-   ```js
+   ```sh
    dotnet restore
    ```
 4. Install required NuGet dependencies (if they are not restored automatically, install manually)
@@ -194,7 +194,7 @@ If you have a suggestion that would make this better, please fork the repo and c
 ### Top contributors:
 
 <a href="https://github.com/DuongDaiPhat/Airline-Reservation-/graphs/contributors">
-  <img src="https://github.com/DuongDaiPhat/Airline-Reservation-/blob/main/Images/team.png" alt="team image" />
+  <img src="https://github.com/DuongDaiPhat/Airline-Reservation-/blob/main/Images/team.png" alt="team image" width="330 px" height="70 px"/>
 </a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
