@@ -22,7 +22,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/DuongDaiPhat/Airline-Reservation-">
-    <img src="images/finallogo.png" alt="Logo">
+    <img src="[images/finallogo.png](https://github.com/DuongDaiPhat/Airline-Reservation-/blob/main/Images/finallogo.png)" alt="Logo">
   </a>
 
   <h2 align="center">Airline-Reservation-System</h2>
@@ -194,7 +194,7 @@ If you have a suggestion that would make this better, please fork the repo and c
 ### Top contributors:
 
 <a href="https://github.com/DuongDaiPhat/Airline-Reservation-/graphs/contributors">
-  <img src="https://github.com/DuongDaiPhat/Airline-Reservation-/images/team.png" alt="team image" />
+  <img src="[https://github.com/DuongDaiPhat/Airline-Reservation-/blob/main/Images/team.png](https://github.com/DuongDaiPhat/Airline-Reservation-/blob/main/Images/team.png)" alt="team image" />
 </a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
