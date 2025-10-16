@@ -251,3 +251,17 @@ Resources and tools that were helpful during the development of this project:
 [sqlserver-url]: https://www.microsoft.com/sql-server
 [ef]: https://img.shields.io/badge/Entity%20Framework-512BD4?style=for-the-badge&logo=dotnet&logoColor=white
 [ef-url]: https://learn.microsoft.com/ef/
+
+[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
+[contributors-url]: https://github.com/DuongDaiPhat/Airline-Reservation-/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
+[forks-url]: https://github.com/DuongDaiPhat/Airline-Reservation-/network/members
+[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
+[stars-url]: https://github.com/DuongDaiPhat/Airline-Reservation-/stargazers
+[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
+[issues-url]: https://github.com/DuongDaiPhat/Airline-Reservation-/issues
+[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
+[license-url]: https://github.com/DuongDaiPhat/Airline-Reservation-/blob/master/LICENSE.txt
+<!-- [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://linkedin.com/in/othneildrew -->
+[product-screenshot]: images/screenshot.png
