@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Airline_Reservation.src.AirlineReservation.Presentation__WinForms_.Views.Forms.Common;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -16,7 +17,7 @@ namespace Airline_Reservation
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new SignUpForm());
         }
     }
 }

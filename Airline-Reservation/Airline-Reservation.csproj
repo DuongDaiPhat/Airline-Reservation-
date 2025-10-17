@@ -33,8 +33,19 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Guna.UI2, Version=2.0.0.1, Culture=neutral, PublicKeyToken=ad275b4be6718d4b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\Admin\Downloads\Guna_UI_Framework_Ultimate_v2.0.0.1\Guna.UI-Framework-Lib-master\Guna.UI2 WinForms\.net 4.0\Guna.UI2.dll</HintPath>
+    </Reference>
+    <Reference Include="MaterialSkin, Version=2.3.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\MaterialSkin.2.2.3.1\lib\net48\MaterialSkin.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Web" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -69,6 +80,12 @@
     <Compile Include="src\AirlineReservation.Presentation %28WinForms%29\Views\Forms\Admin\ManageUsersForm.cs" />
     <Compile Include="src\AirlineReservation.Presentation %28WinForms%29\Views\Forms\Common\BaseForm.cs" />
     <Compile Include="src\AirlineReservation.Presentation %28WinForms%29\Views\Forms\Common\DialogForm.cs" />
+    <Compile Include="src\AirlineReservation.Presentation %28WinForms%29\Views\Forms\Common\SignUpForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="src\AirlineReservation.Presentation %28WinForms%29\Views\Forms\Common\SignUpForm.Designer.cs">
+      <DependentUpon>SignUpForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="src\AirlineReservation.Presentation %28WinForms%29\Views\Forms\Staff\ApproveRequestsForm.cs" />
     <Compile Include="src\AirlineReservation.Presentation %28WinForms%29\Views\Forms\Staff\BoardingForm.cs" />
     <Compile Include="src\AirlineReservation.Presentation %28WinForms%29\Views\Forms\Staff\CheckinForm.cs" />
@@ -80,10 +97,30 @@
     <Compile Include="src\AirlineReservation.Presentation %28WinForms%29\Views\Forms\User\RegisterForm.cs" />
     <Compile Include="src\AirlineReservation.Presentation %28WinForms%29\Views\Forms\User\RequestForm.cs" />
     <Compile Include="src\AirlineReservation.Presentation %28WinForms%29\Views\Forms\User\SearchFlightForm.cs" />
-    <Compile Include="src\Form1.cs" />
+    <Compile Include="src\AirlineReservation.Presentation %28WinForms%29\Views\UserControls\ElipseControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="src\AirlineReservation.Presentation %28WinForms%29\Views\UserControls\FooterControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="src\AirlineReservation.Presentation %28WinForms%29\Views\UserControls\FooterControl.Designer.cs">
+      <DependentUpon>FooterControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="src\AirlineReservation.Presentation %28WinForms%29\Views\UserControls\HeaderControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="src\AirlineReservation.Presentation %28WinForms%29\Views\UserControls\HeaderControl.Designer.cs">
+      <DependentUpon>HeaderControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="src\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="src\Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -92,7 +129,18 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="src\AirlineReservation.Presentation %28WinForms%29\Views\Forms\Common\SignUpForm.resx">
+      <DependentUpon>SignUpForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="src\AirlineReservation.Presentation %28WinForms%29\Views\UserControls\FooterControl.resx">
+      <DependentUpon>FooterControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="src\AirlineReservation.Presentation %28WinForms%29\Views\UserControls\HeaderControl.resx">
+      <DependentUpon>HeaderControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -144,9 +192,6 @@
     <None Include="src\AirlineReservation.Infrastructure\Persistence\Repositories\.gitkeep" />
     <None Include="src\AirlineReservation.Infrastructure\README.md" />
     <None Include="src\AirlineReservation.Infrastructure\Security\.gitkeep" />
-    <None Include="src\AirlineReservation.Presentation %28WinForms%29\Assets\Icons\.gitkeep" />
-    <None Include="src\AirlineReservation.Presentation %28WinForms%29\Assets\Images\.gitkeep" />
-    <None Include="src\AirlineReservation.Presentation %28WinForms%29\Assets\Styles\.gitkeep" />
     <None Include="src\AirlineReservation.Presentation %28WinForms%29\Controllers\.gitkeep" />
     <None Include="src\AirlineReservation.Presentation %28WinForms%29\Helpers\.gitkeep" />
     <None Include="src\AirlineReservation.Presentation %28WinForms%29\README.md" />
@@ -169,6 +214,24 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="test\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\depositphotos733329868xl-1754542322871.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\Icon\github.png" />
+    <Content Include="Resources\Icon\google.png" />
+    <Content Include="Resources\Icon\hamburger.png" />
+    <Content Include="Resources\Icon\menu.png" />
+    <Content Include="Resources\Icon\microsoft.png" />
+    <Content Include="Resources\Image\earth.png" />
+    <Content Include="Resources\Image\f0rupoik.png" />
+    <Content Include="Resources\Image\flight.png" />
+    <Content Include="Resources\Image\human.png" />
+    <Content Include="Resources\Image\logo_blacktext.png" />
+    <Content Include="Resources\Image\logo_whitetext.png" />
+    <Content Include="Resources\Image\nha-trang_1.jpg" />
+    <Content Include="Resources\Image\theme.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
