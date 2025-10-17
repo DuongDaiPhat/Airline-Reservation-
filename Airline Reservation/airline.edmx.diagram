@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="f63761fa83024200883b64bfed207970" Name="Diagram1">
+        <EntityTypeShape EntityType="AirlineReservationSystemModel.Aircraft" Width="1.5" PointX="5.25" PointY="15.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="AirlineReservationSystemModel.AircraftSeatConfig" Width="1.5" PointX="7.5" PointY="15.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="AirlineReservationSystemModel.AircraftType" Width="1.5" PointX="3" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AirlineReservationSystemModel.Airline" Width="1.5" PointX="3" PointY="14.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="AirlineReservationSystemModel.Airport" Width="1.5" PointX="5.25" PointY="19" IsExpanded="true" />
+        <EntityTypeShape EntityType="AirlineReservationSystemModel.AuditLog" Width="1.5" PointX="7.5" PointY="22.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="AirlineReservationSystemModel.BookingFlight" Width="1.5" PointX="12.75" PointY="22.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="AirlineReservationSystemModel.BookingPromotion" Width="1.5" PointX="9.75" PointY="28.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="AirlineReservationSystemModel.Booking" Width="1.5" PointX="7.5" PointY="28" IsExpanded="true" />
+        <EntityTypeShape EntityType="AirlineReservationSystemModel.BookingService" Width="1.5" PointX="12" PointY="32.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="AirlineReservationSystemModel.City" Width="1.5" PointX="3" PointY="25.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="AirlineReservationSystemModel.Country" Width="1.5" PointX="0.75" PointY="23.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="AirlineReservationSystemModel.FlightPricing" Width="1.5" PointX="12.75" PointY="17.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="AirlineReservationSystemModel.Flight" Width="1.5" PointX="10.5" PointY="16" IsExpanded="true" />
+        <EntityTypeShape EntityType="AirlineReservationSystemModel.Notification" Width="1.5" PointX="9.75" PointY="24.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="AirlineReservationSystemModel.Passenger" Width="1.5" PointX="9.75" PointY="36.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="AirlineReservationSystemModel.PaymentHistory" Width="1.5" PointX="12" PointY="41.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="AirlineReservationSystemModel.Payment" Width="1.5" PointX="9.75" PointY="41.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="AirlineReservationSystemModel.Permission" Width="1.5" PointX="8" PointY="46.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="AirlineReservationSystemModel.Promotion" Width="1.5" PointX="7.5" PointY="33.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="AirlineReservationSystemModel.Role" Width="1.5" PointX="10.25" PointY="46.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="AirlineReservationSystemModel.SeatClass" Width="1.5" PointX="8.25" PointY="10.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="AirlineReservationSystemModel.Seat" Width="1.5" PointX="10.5" PointY="12.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="AirlineReservationSystemModel.Service" Width="1.5" PointX="9.75" PointY="33" IsExpanded="true" />
+        <EntityTypeShape EntityType="AirlineReservationSystemModel.Ticket" Width="1.5" PointX="15" PointY="29.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AirlineReservationSystemModel.UserRole" Width="1.5" PointX="12.5" PointY="26.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="AirlineReservationSystemModel.User" Width="1.5" PointX="5.25" PointY="25.875" IsExpanded="true" />
+        <AssociationConnector Association="AirlineReservationSystemModel.FK__Aircraft__Aircra__03F0984C" ManuallyRouted="false" />
+        <AssociationConnector Association="AirlineReservationSystemModel.FK__Aircraft__Airlin__02FC7413" ManuallyRouted="false" />
+        <AssociationConnector Association="AirlineReservationSystemModel.FK__AircraftS__Aircr__0E6E26BF" ManuallyRouted="false" />
+        <AssociationConnector Association="AirlineReservationSystemModel.FK__Flights__Aircraf__1BC821DD" ManuallyRouted="false" />
+        <AssociationConnector Association="AirlineReservationSystemModel.FK__Seats__AircraftI__151B244E" ManuallyRouted="false" />
+        <AssociationConnector Association="AirlineReservationSystemModel.FK__AircraftS__SeatC__0F624AF8" ManuallyRouted="false" />
+        <AssociationConnector Association="AirlineReservationSystemModel.FK__Airlines__Countr__5BE2A6F2" ManuallyRouted="false" />
+        <AssociationConnector Association="AirlineReservationSystemModel.FK__Flights__Airline__1AD3FDA4" ManuallyRouted="false" />
+        <AssociationConnector Association="AirlineReservationSystemModel.FK__Airports__CityCo__60A75C0F" ManuallyRouted="false" />
+        <AssociationConnector Association="AirlineReservationSystemModel.FK__Flights__Arrival__1DB06A4F" ManuallyRouted="false" />
+        <AssociationConnector Association="AirlineReservationSystemModel.FK__Flights__Departu__1CBC4616" ManuallyRouted="false" />
+        <AssociationConnector Association="AirlineReservationSystemModel.FK__AuditLogs__UserI__7A3223E8" ManuallyRouted="false" />
+        <AssociationConnector Association="AirlineReservationSystemModel.FK__BookingFl__Booki__395884C4" ManuallyRouted="false" />
+        <AssociationConnector Association="AirlineReservationSystemModel.FK__BookingFl__Fligh__3A4CA8FD" ManuallyRouted="false" />
+        <AssociationConnector Association="AirlineReservationSystemModel.FK__Tickets__Booking__42E1EEFE" ManuallyRouted="false" />
+        <AssociationConnector Association="AirlineReservationSystemModel.FK__BookingPr__Booki__6DCC4D03" ManuallyRouted="false" />
+        <AssociationConnector Association="AirlineReservationSystemModel.FK__BookingPr__Promo__6EC0713C" ManuallyRouted="false" />
+        <AssociationConnector Association="AirlineReservationSystemModel.FK__Bookings__UserID__2EDAF651" ManuallyRouted="false" />
+        <AssociationConnector Association="AirlineReservationSystemModel.FK__BookingSe__Booki__5BAD9CC8" ManuallyRouted="false" />
+        <AssociationConnector Association="AirlineReservationSystemModel.FK__Notificat__Relat__74794A92" ManuallyRouted="false" />
+        <AssociationConnector Association="AirlineReservationSystemModel.FK__Passenger__Booki__339FAB6E" ManuallyRouted="false" />
+        <AssociationConnector Association="AirlineReservationSystemModel.FK__Payments__Bookin__4C6B5938" ManuallyRouted="false" />
+        <AssociationConnector Association="AirlineReservationSystemModel.FK__BookingSe__Passe__5D95E53A" ManuallyRouted="false" />
+        <AssociationConnector Association="AirlineReservationSystemModel.FK__BookingSe__Servi__5CA1C101" ManuallyRouted="false" />
+        <AssociationConnector Association="AirlineReservationSystemModel.FK__Cities__CountryC__571DF1D5" ManuallyRouted="false" />
+        <AssociationConnector Association="AirlineReservationSystemModel.FK__Users__CityCode__6A30C649" ManuallyRouted="false" />
+        <AssociationConnector Association="AirlineReservationSystemModel.FK__FlightPri__Fligh__25518C17" ManuallyRouted="false" />
+        <AssociationConnector Association="AirlineReservationSystemModel.FK__FlightPri__SeatC__2645B050" ManuallyRouted="false" />
+        <AssociationConnector Association="AirlineReservationSystemModel.FK__Notificat__UserI__73852659" ManuallyRouted="false" />
+        <AssociationConnector Association="AirlineReservationSystemModel.FK__Tickets__Passeng__43D61337" ManuallyRouted="false" />
+        <AssociationConnector Association="AirlineReservationSystemModel.FK__PaymentHi__Payme__531856C7" ManuallyRouted="false" />
+        <AssociationConnector Association="AirlineReservationSystemModel.FK__UserRoles__RoleI__797309D9" ManuallyRouted="false" />
+        <AssociationConnector Association="AirlineReservationSystemModel.FK__Seats__SeatClass__160F4887" ManuallyRouted="false" />
+        <AssociationConnector Association="AirlineReservationSystemModel.FK__Tickets__SeatCla__44CA3770" ManuallyRouted="false" />
+        <AssociationConnector Association="AirlineReservationSystemModel.FK__UserRoles__Assig__7A672E12" ManuallyRouted="false" />
+        <AssociationConnector Association="AirlineReservationSystemModel.FK__UserRoles__UserI__787EE5A0" ManuallyRouted="false" />
+        <AssociationConnector Association="AirlineReservationSystemModel.RolePermissions" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

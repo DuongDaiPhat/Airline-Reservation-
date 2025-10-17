@@ -1,0 +1,14 @@
+*.exe
+*.dll
+*.zip
+*.log
+.cache/
+AppData/
+.docker/
+.dotnet/
+.nuget/
+Desktop/
+Documents/
+Downloads/
+OneDrive/
+NTUSER.*
