@@ -1,0 +1,55 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\coding for Future\\Airline-Reservation-\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8935F97F-11D4-6A31-DB58-B69F93E498B3}|AirlineReservation\\AirlineReservation.csproj|d:\\coding for future\\airline-reservation-\\airlinereservation\\src\\airlinereservation.presentation (winforms)\\views\\forms\\common\\signinform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8935F97F-11D4-6A31-DB58-B69F93E498B3}|AirlineReservation\\AirlineReservation.csproj|solutionrelative:airlinereservation\\src\\airlinereservation.presentation (winforms)\\views\\forms\\common\\signinform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8935F97F-11D4-6A31-DB58-B69F93E498B3}|AirlineReservation\\AirlineReservation.csproj|D:\\coding for Future\\Airline-Reservation-\\airlinereservation\\src\\airlinereservation.presentation (winforms)\\views\\forms\\common\\signupform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8935F97F-11D4-6A31-DB58-B69F93E498B3}|AirlineReservation\\AirlineReservation.csproj|solutionrelative:airlinereservation\\src\\airlinereservation.presentation (winforms)\\views\\forms\\common\\signupform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SignUpForm.cs [Design]",
+              "DocumentMoniker": "D:\\coding for Future\\Airline-Reservation-\\AirlineReservation\\src\\AirlineReservation.Presentation (WinForms)\\Views\\Forms\\Common\\SignUpForm.cs",
+              "RelativeDocumentMoniker": "AirlineReservation\\src\\AirlineReservation.Presentation (WinForms)\\Views\\Forms\\Common\\SignUpForm.cs",
+              "ToolTip": "D:\\coding for Future\\Airline-Reservation-\\AirlineReservation\\src\\AirlineReservation.Presentation (WinForms)\\Views\\Forms\\Common\\SignUpForm.cs [Design]",
+              "RelativeToolTip": "AirlineReservation\\src\\AirlineReservation.Presentation (WinForms)\\Views\\Forms\\Common\\SignUpForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-17T17:07:49.349Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SignInForm.cs [Design]",
+              "DocumentMoniker": "D:\\coding for Future\\Airline-Reservation-\\AirlineReservation\\src\\AirlineReservation.Presentation (WinForms)\\Views\\Forms\\Common\\SignInForm.cs",
+              "RelativeDocumentMoniker": "AirlineReservation\\src\\AirlineReservation.Presentation (WinForms)\\Views\\Forms\\Common\\SignInForm.cs",
+              "ToolTip": "D:\\coding for Future\\Airline-Reservation-\\AirlineReservation\\src\\AirlineReservation.Presentation (WinForms)\\Views\\Forms\\Common\\SignInForm.cs [Design]",
+              "RelativeToolTip": "AirlineReservation\\src\\AirlineReservation.Presentation (WinForms)\\Views\\Forms\\Common\\SignInForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-17T17:07:29.966Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

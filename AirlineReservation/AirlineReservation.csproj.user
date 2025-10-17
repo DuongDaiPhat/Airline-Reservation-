@@ -4,6 +4,12 @@
     <Compile Update="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="src\AirlineReservation.Presentation %28WinForms%29\Views\Forms\Common\SignInForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="src\AirlineReservation.Presentation %28WinForms%29\Views\Forms\Common\SignUpForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="src\Form1.cs">
       <SubType>Form</SubType>
     </Compile>

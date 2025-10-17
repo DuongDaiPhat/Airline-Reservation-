@@ -130,7 +130,7 @@ _Below is an example of how you can instruct your audience on installing and set
    ```
 2. Open the solution in Visual Studio
    ```sh
-   Airline-Reservation-.sln
+   Airline-Reservation.sln
    ```
 3. Restore NuGet packages in Package Manager Console
    ```sh
