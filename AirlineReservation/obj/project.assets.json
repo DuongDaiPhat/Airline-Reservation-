@@ -5279,11 +5279,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\coding for Future\\Airline-Reservation-\\AirlineReservation\\AirlineReservation.csproj",
+      "projectUniqueName": "D:\\coding for Future\\C#\\BTL\\Airline-Reservation-\\AirlineReservation\\AirlineReservation.csproj",
       "projectName": "AirlineReservation",
-      "projectPath": "D:\\coding for Future\\Airline-Reservation-\\AirlineReservation\\AirlineReservation.csproj",
+      "projectPath": "D:\\coding for Future\\C#\\BTL\\Airline-Reservation-\\AirlineReservation\\AirlineReservation.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "D:\\coding for Future\\Airline-Reservation-\\AirlineReservation\\obj\\",
+      "outputPath": "D:\\coding for Future\\C#\\BTL\\Airline-Reservation-\\AirlineReservation\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
