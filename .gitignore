@@ -1,0 +1,36 @@
+# Visual Studio cache
+.vs/
+
+# Build folders
+bin/
+obj/
+Debug/
+Release/
+Migrations/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Logs & temp
+*.log
+*.cache
+*.db
+*.db-shm
+*.db-wal
+
+# NuGet
+*.nupkg
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Config (nếu chứa thông tin nhạy cảm)
+appsettings.json
+appsettings.Development.json
+
+# Rider / VSCode
+.idea/
+.vscode/
