@@ -1,0 +1,13 @@
+appsettings.json
+
+*.user
+*.suo
+.vs/
+bin/
+obj/
+Migrations/
+
+*.log
+*.cache
+*.vscode/
+
