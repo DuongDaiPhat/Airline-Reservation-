@@ -4,7 +4,6 @@
 # Build artifacts (mọi cấp thư mục)
 **/bin/
 **/obj/
-
 # Build folders
 bin/
 obj/
