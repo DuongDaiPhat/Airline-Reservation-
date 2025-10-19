@@ -1,12 +1,5 @@
-<<<<<<< HEAD
-=======
-﻿using AirlineReservation.src.AirlineReservation.Infrastructure.Persistence.Contexts;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Hosting;
+using AirlineReservation.src.AirlineReservation.Presentation__WinForms_.Views.Forms.Common;
 
->>>>>>> main
 namespace AirlineReservation
 {
     internal static class Program
@@ -17,32 +10,10 @@ namespace AirlineReservation
         [STAThread]
         static void Main()
         {
-<<<<<<< HEAD
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
-            Application.Run(new Form1());
-=======
-            ApplicationConfiguration.Initialize();
-
-            var builder = Host.CreateApplicationBuilder();
-
-            // Đọc connection string từ appsettings.json
-            var connStr = builder.Configuration.GetConnectionString("DefaultConnection");
-
-            // Đăng ký DbContext với SQL Server
-            builder.Services.AddDbContext<ApplicationDbContext>(options =>
-                options.UseSqlServer(connStr));
-
-            var host = builder.Build();
-
-            using (var scope = host.Services.CreateScope())
-            {
-                var db = scope.ServiceProvider.GetRequiredService<ApplicationDbContext>();
-                Application.Run(new Form1(db));
-            }
-
->>>>>>> main
+            Application.Run(new SignInForm());
         }
     }
 }
