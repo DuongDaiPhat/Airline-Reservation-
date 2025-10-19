@@ -1,6 +1,7 @@
+using AirlineReservation.src.AirlineReservation.Infrastructure.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace AirlineReservation.src.AirlineReservation.Infrastructure.Models
+namespace AirlineReservation.src.AirlineReservation.Infrastructure.Data
 {
     public class AirlineReservationDbContext : DbContext
     {
