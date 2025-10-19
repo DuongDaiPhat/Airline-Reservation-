@@ -1,6 +1,10 @@
 # Visual Studio cache
 .vs/
 
+# Build artifacts (mọi cấp thư mục)
+**/bin/
+**/obj/
+
 # Build folders
 bin/
 obj/
