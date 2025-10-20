@@ -1,4 +1,5 @@
-﻿namespace AirlineReservation.src.AirlineReservation.Presentation__WinForms_.Views.Forms.Common
+﻿using AirlineReservation.Properties;
+namespace AirlineReservation.src.AirlineReservation.Presentation__WinForms_.Views.Forms.Common
 {
     partial class SignInForm
     {
