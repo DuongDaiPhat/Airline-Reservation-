@@ -1,4 +1,4 @@
-using AirlineReservation.src.AirlineReservation.Infrastructure.Models;
+using AirlineReservation.src.AirlineReservation.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
@@ -57,8 +57,12 @@ namespace AirlineReservation.src.AirlineReservation.Infrastructure.Models
             builder.HasIndex(t => t.BookingFlightId)
                 .HasDatabaseName("IX_Tickets_BookingFlight");
 
-            builder.HasCheckConstraint("CK_Ticket_Status", "[Status] IN ('Issued','CheckedIn','Boarded','Cancelled','Refunded')");
-            builder.HasCheckConstraint("CK_Ticket_Price_Positive", "[Price] > 0");
+            builder.ToTable("Tickets", t =>
+            {
+                t.HasCheckConstraint("CK_Ticket_Status", "[Status] IN ('Issued','CheckedIn','Boarded','Cancelled','Refunded')");
+                t.HasCheckConstraint("CK_Ticket_Price_Positive", "[Price] > 0");
+            });
+
 
             builder.HasOne(t => t.BookingFlight)
                 .WithMany(bf => bf.Tickets)

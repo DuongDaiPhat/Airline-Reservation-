@@ -1,4 +1,4 @@
-using AirlineReservation.src.AirlineReservation.Infrastructure.Models;
+using AirlineReservation.src.AirlineReservation.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
