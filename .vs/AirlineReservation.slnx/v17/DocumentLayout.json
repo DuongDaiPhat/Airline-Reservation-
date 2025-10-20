@@ -3,7 +3,11 @@
   "WorkspaceRootPath": "D:\\coding for Future\\Airline-Reservation-\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8935F97F-11D4-6A31-DB58-B69F93E498B3}|AirlineReservation\\AirlineReservation.csproj|D:\\coding for Future\\Airline-Reservation-\\airlinereservation\\src\\airlinereservation.presentation (winforms)\\views\\forms\\common\\signinform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{8935F97F-11D4-6A31-DB58-B69F93E498B3}|AirlineReservation\\AirlineReservation.csproj|D:\\coding for Future\\Airline-Reservation-\\airlinereservation\\src\\airlinereservation.presentation (winforms)\\views\\forms\\common\\signupform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8935F97F-11D4-6A31-DB58-B69F93E498B3}|AirlineReservation\\AirlineReservation.csproj|solutionrelative:airlinereservation\\src\\airlinereservation.presentation (winforms)\\views\\forms\\common\\signupform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8935F97F-11D4-6A31-DB58-B69F93E498B3}|AirlineReservation\\AirlineReservation.csproj|d:\\coding for future\\airline-reservation-\\airlinereservation\\src\\airlinereservation.presentation (winforms)\\views\\forms\\common\\signinform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{8935F97F-11D4-6A31-DB58-B69F93E498B3}|AirlineReservation\\AirlineReservation.csproj|solutionrelative:airlinereservation\\src\\airlinereservation.presentation (winforms)\\views\\forms\\common\\signinform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -11,16 +15,8 @@
       "RelativeMoniker": "D:0:0:{8935F97F-11D4-6A31-DB58-B69F93E498B3}|AirlineReservation\\AirlineReservation.csproj|solutionrelative:airlinereservation\\src\\airlinereservation.presentation (winforms)\\views\\forms\\common\\signinform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8935F97F-11D4-6A31-DB58-B69F93E498B3}|AirlineReservation\\AirlineReservation.csproj|d:\\coding for future\\airline-reservation-\\airlinereservation\\src\\airlinereservation.presentation (winforms)\\views\\forms\\common\\signinform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8935F97F-11D4-6A31-DB58-B69F93E498B3}|AirlineReservation\\AirlineReservation.csproj|solutionrelative:airlinereservation\\src\\airlinereservation.presentation (winforms)\\views\\forms\\common\\signinform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8935F97F-11D4-6A31-DB58-B69F93E498B3}|AirlineReservation\\AirlineReservation.csproj|d:\\coding for future\\airline-reservation-\\airlinereservation\\src\\airlinereservation.infrastructure\\contexts\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8935F97F-11D4-6A31-DB58-B69F93E498B3}|AirlineReservation\\AirlineReservation.csproj|solutionrelative:airlinereservation\\src\\airlinereservation.infrastructure\\contexts\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\coding for Future\\Airline-Reservation-\\AirlineReservation\\src\\Form1.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AirlineReservation\\src\\Form1.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8935F97F-11D4-6A31-DB58-B69F93E498B3}|AirlineReservation\\AirlineReservation.csproj|d:\\coding for future\\airline-reservation-\\airlinereservation\\src\\airlinereservation.infrastructure\\configurations\\ticketconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -226,60 +222,47 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "SignInForm.Designer.cs",
-              "DocumentMoniker": "D:\\coding for Future\\Airline-Reservation-\\AirlineReservation\\src\\AirlineReservation.Presentation (WinForms)\\Views\\Forms\\Common\\SignInForm.Designer.cs",
-              "RelativeDocumentMoniker": "AirlineReservation\\src\\AirlineReservation.Presentation (WinForms)\\Views\\Forms\\Common\\SignInForm.Designer.cs",
-              "ToolTip": "D:\\coding for Future\\Airline-Reservation-\\AirlineReservation\\src\\AirlineReservation.Presentation (WinForms)\\Views\\Forms\\Common\\SignInForm.Designer.cs*",
-              "RelativeToolTip": "AirlineReservation\\src\\AirlineReservation.Presentation (WinForms)\\Views\\Forms\\Common\\SignInForm.Designer.cs*",
-              "ViewState": "AgIAALsBAAAAAAAAAAAAAMQBAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-20T06:11:06.329Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Form1.Designer.cs",
-              "DocumentMoniker": "D:\\coding for Future\\Airline-Reservation-\\AirlineReservation\\src\\Form1.Designer.cs",
-              "RelativeDocumentMoniker": "AirlineReservation\\src\\Form1.Designer.cs",
-              "ToolTip": "D:\\coding for Future\\Airline-Reservation-\\AirlineReservation\\src\\Form1.Designer.cs",
-              "RelativeToolTip": "AirlineReservation\\src\\Form1.Designer.cs",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-19T11:01:38.367Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "SignInForm.cs",
-              "DocumentMoniker": "D:\\coding for Future\\Airline-Reservation-\\AirlineReservation\\src\\AirlineReservation.Presentation (WinForms)\\Views\\Forms\\Common\\SignInForm.cs",
-              "RelativeDocumentMoniker": "AirlineReservation\\src\\AirlineReservation.Presentation (WinForms)\\Views\\Forms\\Common\\SignInForm.cs",
-              "ToolTip": "D:\\coding for Future\\Airline-Reservation-\\AirlineReservation\\src\\AirlineReservation.Presentation (WinForms)\\Views\\Forms\\Common\\SignInForm.cs*",
-              "RelativeToolTip": "AirlineReservation\\src\\AirlineReservation.Presentation (WinForms)\\Views\\Forms\\Common\\SignInForm.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAA+AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-19T10:56:14.284Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "SignInForm.cs [Design]",
               "DocumentMoniker": "D:\\coding for Future\\Airline-Reservation-\\AirlineReservation\\src\\AirlineReservation.Presentation (WinForms)\\Views\\Forms\\Common\\SignInForm.cs",
               "RelativeDocumentMoniker": "AirlineReservation\\src\\AirlineReservation.Presentation (WinForms)\\Views\\Forms\\Common\\SignInForm.cs",
-              "ToolTip": "D:\\coding for Future\\Airline-Reservation-\\AirlineReservation\\src\\AirlineReservation.Presentation (WinForms)\\Views\\Forms\\Common\\SignInForm.cs [Design]*",
-              "RelativeToolTip": "AirlineReservation\\src\\AirlineReservation.Presentation (WinForms)\\Views\\Forms\\Common\\SignInForm.cs [Design]*",
+              "ToolTip": "D:\\coding for Future\\Airline-Reservation-\\AirlineReservation\\src\\AirlineReservation.Presentation (WinForms)\\Views\\Forms\\Common\\SignInForm.cs [Design]",
+              "RelativeToolTip": "AirlineReservation\\src\\AirlineReservation.Presentation (WinForms)\\Views\\Forms\\Common\\SignInForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-19T10:55:22.698Z",
+              "WhenOpened": "2025-10-20T08:23:15.659Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
+              "Title": "SignUpForm.cs [Design]",
+              "DocumentMoniker": "D:\\coding for Future\\Airline-Reservation-\\AirlineReservation\\src\\AirlineReservation.Presentation (WinForms)\\Views\\Forms\\Common\\SignUpForm.cs",
+              "RelativeDocumentMoniker": "AirlineReservation\\src\\AirlineReservation.Presentation (WinForms)\\Views\\Forms\\Common\\SignUpForm.cs",
+              "ToolTip": "D:\\coding for Future\\Airline-Reservation-\\AirlineReservation\\src\\AirlineReservation.Presentation (WinForms)\\Views\\Forms\\Common\\SignUpForm.cs [Design]*",
+              "RelativeToolTip": "AirlineReservation\\src\\AirlineReservation.Presentation (WinForms)\\Views\\Forms\\Common\\SignUpForm.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T08:22:52.576Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SignInForm.cs",
+              "DocumentMoniker": "D:\\coding for Future\\Airline-Reservation-\\AirlineReservation\\src\\AirlineReservation.Presentation (WinForms)\\Views\\Forms\\Common\\SignInForm.cs",
+              "RelativeDocumentMoniker": "AirlineReservation\\src\\AirlineReservation.Presentation (WinForms)\\Views\\Forms\\Common\\SignInForm.cs",
+              "ToolTip": "D:\\coding for Future\\Airline-Reservation-\\AirlineReservation\\src\\AirlineReservation.Presentation (WinForms)\\Views\\Forms\\Common\\SignInForm.cs",
+              "RelativeToolTip": "AirlineReservation\\src\\AirlineReservation.Presentation (WinForms)\\Views\\Forms\\Common\\SignInForm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T10:56:14.284Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "BookingConfiguration.cs",
               "DocumentMoniker": "D:\\coding for Future\\Airline-Reservation-\\AirlineReservation\\src\\AirlineReservation.Infrastructure\\Configurations\\BookingConfiguration.cs",
               "RelativeDocumentMoniker": "AirlineReservation\\src\\AirlineReservation.Infrastructure\\Configurations\\BookingConfiguration.cs",
@@ -303,7 +286,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "TicketConfiguration.cs",
               "DocumentMoniker": "D:\\coding for Future\\Airline-Reservation-\\AirlineReservation\\src\\AirlineReservation.Infrastructure\\Configurations\\TicketConfiguration.cs",
               "RelativeDocumentMoniker": "AirlineReservation\\src\\AirlineReservation.Infrastructure\\Configurations\\TicketConfiguration.cs",
@@ -315,7 +298,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 7,
               "Title": "AirlineReservationDbContextFactory.cs",
               "DocumentMoniker": "D:\\coding for Future\\Airline-Reservation-\\AirlineReservation\\src\\AirlineReservation.Infrastructure\\Contexts\\AirlineReservationDbContextFactory.cs",
               "RelativeDocumentMoniker": "AirlineReservation\\src\\AirlineReservation.Infrastructure\\Contexts\\AirlineReservationDbContextFactory.cs",
@@ -327,7 +310,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 8,
               "Title": "AirlineReservationDbContext.cs",
               "DocumentMoniker": "D:\\coding for Future\\Airline-Reservation-\\AirlineReservation\\src\\AirlineReservation.Infrastructure\\Contexts\\AirlineReservationDbContext.cs",
               "RelativeDocumentMoniker": "AirlineReservation\\src\\AirlineReservation.Infrastructure\\Contexts\\AirlineReservationDbContext.cs",
@@ -339,7 +322,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\coding for Future\\Airline-Reservation-\\AirlineReservation\\Program.cs",
               "RelativeDocumentMoniker": "AirlineReservation\\Program.cs",
@@ -351,7 +334,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 10,
               "Title": "FlightPricingConfiguration.cs",
               "DocumentMoniker": "D:\\coding for Future\\Airline-Reservation-\\AirlineReservation\\src\\AirlineReservation.Infrastructure\\Configurations\\FlightPricingConfiguration.cs",
               "RelativeDocumentMoniker": "AirlineReservation\\src\\AirlineReservation.Infrastructure\\Configurations\\FlightPricingConfiguration.cs",
@@ -363,7 +346,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 9,
               "Title": "Service.cs",
               "DocumentMoniker": "D:\\coding for Future\\Airline-Reservation-\\AirlineReservation\\src\\AirlineReservation.Domain\\Entities\\Service.cs",
               "RelativeDocumentMoniker": "AirlineReservation\\src\\AirlineReservation.Domain\\Entities\\Service.cs",
@@ -375,7 +358,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 52,
               "Title": "20251019103746_build_DB.cs",
               "DocumentMoniker": "D:\\coding for Future\\Airline-Reservation-\\AirlineReservation\\Migrations\\20251019103746_build_DB.cs",
               "RelativeDocumentMoniker": "AirlineReservation\\Migrations\\20251019103746_build_DB.cs",
@@ -387,7 +370,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 11,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\coding for Future\\Airline-Reservation-\\AirlineReservation\\appsettings.json",
               "RelativeDocumentMoniker": "AirlineReservation\\appsettings.json",
@@ -399,7 +382,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 12,
               "Title": "BookingFlightConfiguration.cs",
               "DocumentMoniker": "D:\\coding for Future\\Airline-Reservation-\\AirlineReservation\\src\\AirlineReservation.Infrastructure\\Configurations\\BookingFlightConfiguration.cs",
               "RelativeDocumentMoniker": "AirlineReservation\\src\\AirlineReservation.Infrastructure\\Configurations\\BookingFlightConfiguration.cs",
@@ -411,7 +394,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 13,
               "Title": "BookingServiceConfiguration.cs",
               "DocumentMoniker": "D:\\coding for Future\\Airline-Reservation-\\AirlineReservation\\src\\AirlineReservation.Infrastructure\\Configurations\\BookingServiceConfiguration.cs",
               "RelativeDocumentMoniker": "AirlineReservation\\src\\AirlineReservation.Infrastructure\\Configurations\\BookingServiceConfiguration.cs",
@@ -423,7 +406,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 14,
               "Title": "FlightConfiguration.cs",
               "DocumentMoniker": "D:\\coding for Future\\Airline-Reservation-\\AirlineReservation\\src\\AirlineReservation.Infrastructure\\Configurations\\FlightConfiguration.cs",
               "RelativeDocumentMoniker": "AirlineReservation\\src\\AirlineReservation.Infrastructure\\Configurations\\FlightConfiguration.cs",
@@ -435,7 +418,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 16,
               "Title": "AuditLogConfiguration.cs",
               "DocumentMoniker": "D:\\coding for Future\\Airline-Reservation-\\AirlineReservation\\src\\AirlineReservation.Infrastructure\\Configurations\\AuditLogConfiguration.cs",
               "RelativeDocumentMoniker": "AirlineReservation\\src\\AirlineReservation.Infrastructure\\Configurations\\AuditLogConfiguration.cs",
@@ -447,7 +430,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 17,
               "Title": "AirlineReservation.csproj",
               "DocumentMoniker": "D:\\coding for Future\\Airline-Reservation-\\AirlineReservation\\AirlineReservation.csproj",
               "RelativeDocumentMoniker": "AirlineReservation\\AirlineReservation.csproj",
@@ -459,7 +442,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 15,
               "Title": "AircraftSeatConfigConfiguration.cs",
               "DocumentMoniker": "D:\\coding for Future\\Airline-Reservation-\\AirlineReservation\\src\\AirlineReservation.Infrastructure\\Configurations\\AircraftSeatConfigConfiguration.cs",
               "RelativeDocumentMoniker": "AirlineReservation\\src\\AirlineReservation.Infrastructure\\Configurations\\AircraftSeatConfigConfiguration.cs",
@@ -471,7 +454,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 18,
               "Title": "AircraftConfiguration.cs",
               "DocumentMoniker": "D:\\coding for Future\\Airline-Reservation-\\AirlineReservation\\src\\AirlineReservation.Infrastructure\\Configurations\\AircraftConfiguration.cs",
               "RelativeDocumentMoniker": "AirlineReservation\\src\\AirlineReservation.Infrastructure\\Configurations\\AircraftConfiguration.cs",
@@ -483,7 +466,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 19,
               "Title": "Aircraft.cs",
               "DocumentMoniker": "D:\\coding for Future\\Airline-Reservation-\\AirlineReservation\\src\\AirlineReservation.Domain\\Entities\\Aircraft.cs",
               "RelativeDocumentMoniker": "AirlineReservation\\src\\AirlineReservation.Domain\\Entities\\Aircraft.cs",
@@ -495,7 +478,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 20,
               "Title": "AircraftSeatConfig.cs",
               "DocumentMoniker": "D:\\coding for Future\\Airline-Reservation-\\AirlineReservation\\src\\AirlineReservation.Domain\\Entities\\AircraftSeatConfig.cs",
               "RelativeDocumentMoniker": "AirlineReservation\\src\\AirlineReservation.Domain\\Entities\\AircraftSeatConfig.cs",
@@ -507,7 +490,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 21,
               "Title": "UserRole.cs",
               "DocumentMoniker": "D:\\coding for Future\\Airline-Reservation-\\AirlineReservation\\src\\AirlineReservation.Domain\\Entities\\UserRole.cs",
               "RelativeDocumentMoniker": "AirlineReservation\\src\\AirlineReservation.Domain\\Entities\\UserRole.cs",
@@ -519,7 +502,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 22,
               "Title": "User.cs",
               "DocumentMoniker": "D:\\coding for Future\\Airline-Reservation-\\AirlineReservation\\src\\AirlineReservation.Domain\\Entities\\User.cs",
               "RelativeDocumentMoniker": "AirlineReservation\\src\\AirlineReservation.Domain\\Entities\\User.cs",
@@ -531,7 +514,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 23,
               "Title": "Ticket.cs",
               "DocumentMoniker": "D:\\coding for Future\\Airline-Reservation-\\AirlineReservation\\src\\AirlineReservation.Domain\\Entities\\Ticket.cs",
               "RelativeDocumentMoniker": "AirlineReservation\\src\\AirlineReservation.Domain\\Entities\\Ticket.cs",
@@ -543,7 +526,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 24,
               "Title": "SeatClass.cs",
               "DocumentMoniker": "D:\\coding for Future\\Airline-Reservation-\\AirlineReservation\\src\\AirlineReservation.Domain\\Entities\\SeatClass.cs",
               "RelativeDocumentMoniker": "AirlineReservation\\src\\AirlineReservation.Domain\\Entities\\SeatClass.cs",
@@ -555,7 +538,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 25,
               "Title": "Seat.cs",
               "DocumentMoniker": "D:\\coding for Future\\Airline-Reservation-\\AirlineReservation\\src\\AirlineReservation.Domain\\Entities\\Seat.cs",
               "RelativeDocumentMoniker": "AirlineReservation\\src\\AirlineReservation.Domain\\Entities\\Seat.cs",
@@ -567,7 +550,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 26,
               "Title": "RolePermission.cs",
               "DocumentMoniker": "D:\\coding for Future\\Airline-Reservation-\\AirlineReservation\\src\\AirlineReservation.Domain\\Entities\\RolePermission.cs",
               "RelativeDocumentMoniker": "AirlineReservation\\src\\AirlineReservation.Domain\\Entities\\RolePermission.cs",
@@ -579,7 +562,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 27,
               "Title": "Role.cs",
               "DocumentMoniker": "D:\\coding for Future\\Airline-Reservation-\\AirlineReservation\\src\\AirlineReservation.Domain\\Entities\\Role.cs",
               "RelativeDocumentMoniker": "AirlineReservation\\src\\AirlineReservation.Domain\\Entities\\Role.cs",
@@ -591,7 +574,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 28,
               "Title": "Promotion.cs",
               "DocumentMoniker": "D:\\coding for Future\\Airline-Reservation-\\AirlineReservation\\src\\AirlineReservation.Domain\\Entities\\Promotion.cs",
               "RelativeDocumentMoniker": "AirlineReservation\\src\\AirlineReservation.Domain\\Entities\\Promotion.cs",
@@ -603,7 +586,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 29,
               "Title": "Permission.cs",
               "DocumentMoniker": "D:\\coding for Future\\Airline-Reservation-\\AirlineReservation\\src\\AirlineReservation.Domain\\Entities\\Permission.cs",
               "RelativeDocumentMoniker": "AirlineReservation\\src\\AirlineReservation.Domain\\Entities\\Permission.cs",
@@ -615,7 +598,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 30,
               "Title": "PaymentHistory.cs",
               "DocumentMoniker": "D:\\coding for Future\\Airline-Reservation-\\AirlineReservation\\src\\AirlineReservation.Domain\\Entities\\PaymentHistory.cs",
               "RelativeDocumentMoniker": "AirlineReservation\\src\\AirlineReservation.Domain\\Entities\\PaymentHistory.cs",
@@ -627,7 +610,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 31,
               "Title": "Payment.cs",
               "DocumentMoniker": "D:\\coding for Future\\Airline-Reservation-\\AirlineReservation\\src\\AirlineReservation.Domain\\Entities\\Payment.cs",
               "RelativeDocumentMoniker": "AirlineReservation\\src\\AirlineReservation.Domain\\Entities\\Payment.cs",
@@ -639,7 +622,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 32,
               "Title": "Passenger.cs",
               "DocumentMoniker": "D:\\coding for Future\\Airline-Reservation-\\AirlineReservation\\src\\AirlineReservation.Domain\\Entities\\Passenger.cs",
               "RelativeDocumentMoniker": "AirlineReservation\\src\\AirlineReservation.Domain\\Entities\\Passenger.cs",
@@ -651,7 +634,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 33,
               "Title": "Notification.cs",
               "DocumentMoniker": "D:\\coding for Future\\Airline-Reservation-\\AirlineReservation\\src\\AirlineReservation.Domain\\Entities\\Notification.cs",
               "RelativeDocumentMoniker": "AirlineReservation\\src\\AirlineReservation.Domain\\Entities\\Notification.cs",
@@ -663,7 +646,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 34,
               "Title": "FlightPricing.cs",
               "DocumentMoniker": "D:\\coding for Future\\Airline-Reservation-\\AirlineReservation\\src\\AirlineReservation.Domain\\Entities\\FlightPricing.cs",
               "RelativeDocumentMoniker": "AirlineReservation\\src\\AirlineReservation.Domain\\Entities\\FlightPricing.cs",
@@ -675,7 +658,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 35,
               "Title": "Flight.cs",
               "DocumentMoniker": "D:\\coding for Future\\Airline-Reservation-\\AirlineReservation\\src\\AirlineReservation.Domain\\Entities\\Flight.cs",
               "RelativeDocumentMoniker": "AirlineReservation\\src\\AirlineReservation.Domain\\Entities\\Flight.cs",
@@ -687,7 +670,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 36,
               "Title": "Country.cs",
               "DocumentMoniker": "D:\\coding for Future\\Airline-Reservation-\\AirlineReservation\\src\\AirlineReservation.Domain\\Entities\\Country.cs",
               "RelativeDocumentMoniker": "AirlineReservation\\src\\AirlineReservation.Domain\\Entities\\Country.cs",
@@ -699,7 +682,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 37,
               "Title": "City.cs",
               "DocumentMoniker": "D:\\coding for Future\\Airline-Reservation-\\AirlineReservation\\src\\AirlineReservation.Domain\\Entities\\City.cs",
               "RelativeDocumentMoniker": "AirlineReservation\\src\\AirlineReservation.Domain\\Entities\\City.cs",
@@ -711,7 +694,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 38,
               "Title": "BookingService.cs",
               "DocumentMoniker": "D:\\coding for Future\\Airline-Reservation-\\AirlineReservation\\src\\AirlineReservation.Domain\\Entities\\BookingService.cs",
               "RelativeDocumentMoniker": "AirlineReservation\\src\\AirlineReservation.Domain\\Entities\\BookingService.cs",
@@ -723,7 +706,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 39,
               "Title": "BookingPromotion.cs",
               "DocumentMoniker": "D:\\coding for Future\\Airline-Reservation-\\AirlineReservation\\src\\AirlineReservation.Domain\\Entities\\BookingPromotion.cs",
               "RelativeDocumentMoniker": "AirlineReservation\\src\\AirlineReservation.Domain\\Entities\\BookingPromotion.cs",
@@ -735,7 +718,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 40,
               "Title": "BookingFlight.cs",
               "DocumentMoniker": "D:\\coding for Future\\Airline-Reservation-\\AirlineReservation\\src\\AirlineReservation.Domain\\Entities\\BookingFlight.cs",
               "RelativeDocumentMoniker": "AirlineReservation\\src\\AirlineReservation.Domain\\Entities\\BookingFlight.cs",
@@ -747,7 +730,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 41,
               "Title": "Booking.cs",
               "DocumentMoniker": "D:\\coding for Future\\Airline-Reservation-\\AirlineReservation\\src\\AirlineReservation.Domain\\Entities\\Booking.cs",
               "RelativeDocumentMoniker": "AirlineReservation\\src\\AirlineReservation.Domain\\Entities\\Booking.cs",
@@ -759,7 +742,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 42,
               "Title": "AuditLog.cs",
               "DocumentMoniker": "D:\\coding for Future\\Airline-Reservation-\\AirlineReservation\\src\\AirlineReservation.Domain\\Entities\\AuditLog.cs",
               "RelativeDocumentMoniker": "AirlineReservation\\src\\AirlineReservation.Domain\\Entities\\AuditLog.cs",
@@ -771,7 +754,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 43,
               "Title": "Airport.cs",
               "DocumentMoniker": "D:\\coding for Future\\Airline-Reservation-\\AirlineReservation\\src\\AirlineReservation.Domain\\Entities\\Airport.cs",
               "RelativeDocumentMoniker": "AirlineReservation\\src\\AirlineReservation.Domain\\Entities\\Airport.cs",
@@ -783,7 +766,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 44,
               "Title": "Airline.cs",
               "DocumentMoniker": "D:\\coding for Future\\Airline-Reservation-\\AirlineReservation\\src\\AirlineReservation.Domain\\Entities\\Airline.cs",
               "RelativeDocumentMoniker": "AirlineReservation\\src\\AirlineReservation.Domain\\Entities\\Airline.cs",
@@ -795,7 +778,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 45,
               "Title": "AircraftType.cs",
               "DocumentMoniker": "D:\\coding for Future\\Airline-Reservation-\\AirlineReservation\\src\\AirlineReservation.Domain\\Entities\\AircraftType.cs",
               "RelativeDocumentMoniker": "AirlineReservation\\src\\AirlineReservation.Domain\\Entities\\AircraftType.cs",
@@ -807,7 +790,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 47,
               "Title": "Form1.cs",
               "DocumentMoniker": "D:\\coding for Future\\Airline-Reservation-\\AirlineReservation\\Form1.cs",
               "RelativeDocumentMoniker": "AirlineReservation\\Form1.cs",
@@ -818,7 +801,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 48,
               "Title": "20251017182710_themFlight.cs",
               "DocumentMoniker": "D:\\coding for Future\\Airline-Reservation-\\AirlineReservation\\Migrations\\20251017182710_themFlight.cs",
               "RelativeDocumentMoniker": "AirlineReservation\\Migrations\\20251017182710_themFlight.cs",
@@ -830,7 +813,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 49,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "D:\\coding for Future\\Airline-Reservation-\\AirlineReservation\\src\\AirlineReservation.Infrastructure\\Persistence\\Contexts\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "AirlineReservation\\src\\AirlineReservation.Infrastructure\\Persistence\\Contexts\\ApplicationDbContext.cs",
@@ -842,7 +825,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 50,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "D:\\coding for Future\\Airline-Reservation-\\AirlineReservation\\Form1.cs",
               "RelativeDocumentMoniker": "AirlineReservation\\Form1.cs",
@@ -853,7 +836,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 51,
               "Title": "App.config",
               "DocumentMoniker": "D:\\coding for Future\\Airline-Reservation-\\AirlineReservation\\App.config",
               "RelativeDocumentMoniker": "AirlineReservation\\App.config",
@@ -865,7 +848,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 46,
               "Title": "Color.cs",
               "DocumentMoniker": "D:\\coding for Future\\Airline-Reservation-\\AirlineReservation\\src\\AirlineReservation.Presentation (WinForms)\\Assets\\Color Palettes\\Color.cs",
               "RelativeDocumentMoniker": "AirlineReservation\\src\\AirlineReservation.Presentation (WinForms)\\Assets\\Color Palettes\\Color.cs",

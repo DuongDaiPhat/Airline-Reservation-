@@ -63,7 +63,7 @@ namespace AirlineReservation.src.AirlineReservation.Presentation__WinForms_.View
                 MessageBox.Show("Vui lòng điền thông tin yêu câu.", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
-            if (!validation.IsValidGoogleEmail(emailTB.Text) ) return;
+            if (!validation.IsValidGoogleEmail(emailTB.Text)) return;
             if (!validation.IsValidPassword(passwordTB.Text)) return;
 
             // 2. Lấy user từ DB theo email
@@ -102,6 +102,11 @@ namespace AirlineReservation.src.AirlineReservation.Presentation__WinForms_.View
             ForgotPassword forgotPassword = new ForgotPassword();
             forgotPassword.Show();
             this.Hide();
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
