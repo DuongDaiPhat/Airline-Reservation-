@@ -1,4 +1,6 @@
 using AirlineReservation.src.AirlineReservation.Presentation__WinForms_.Views.Forms.Common;
+using AirlineReservation.src.AirlineReservation.Presentation__WinForms_.Views.Forms.User;
+
 
 namespace AirlineReservation
 {
@@ -13,7 +15,7 @@ namespace AirlineReservation
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
-            Application.Run(new SignInForm());
+            Application.Run(new MainForm());
         }
     }
 }

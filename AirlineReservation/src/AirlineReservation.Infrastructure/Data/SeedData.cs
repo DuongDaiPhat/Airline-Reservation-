@@ -1,4 +1,4 @@
-using AirlineReservation.src.AirlineReservation.Infrastructure.Models;
+using AirlineReservation.src.AirlineReservation.Domain.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace AirlineReservation.src.AirlineReservation.Infrastructure.Data
