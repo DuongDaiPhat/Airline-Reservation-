@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace AirlineReservation.src.AirlineReservation.Domain.Models
+namespace AirlineReservation.src.AirlineReservation.Domain.Entites
 {
     public class Promotion
     {

@@ -1,10 +1,12 @@
-using AirlineReservation.src.AirlineReservation.Domain.Models;
+using AirlineReservation.src.AirlineReservation.Domain.Entites;
+using AirlineReservation.src.AirlineReservation.Shared.Utils;
 using Microsoft.EntityFrameworkCore;
 
-namespace AirlineReservation.src.AirlineReservation.Infrastructure.Data
+namespace AirlineReservation.src.AirlineReservation.Infrastructure.Context
 {
     public static class SeedData
     {
+        private readonly static PasswordHasher hasher = new PasswordHasher();
         public static void Configure(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Role>().HasData(
@@ -60,6 +62,28 @@ namespace AirlineReservation.src.AirlineReservation.Infrastructure.Data
                     BaggageAllowanceKg = 40,
                     CabinBaggageAllowanceKg = 15,
                     Description = "Premium first-class experience"
+                });
+
+            modelBuilder.Entity<User>().HasData(
+                new User
+                {
+                    UserId = Guid.Parse("d3f9a7c2-8b1e-4f3a-9c2a-7e4f9a1b2c3d"),
+                    FullName = "ADMIN",
+                    Email = "admin@gmail.com",
+                    Phone = "0999999999",
+                    PasswordHash = hasher.HashPassword("Admin@12345"),
+                    IsVerified = true,
+                    IsActive = true,
+                    CreatedAt = new DateTime(2025, 10, 20, 0, 0, 0, 0)
+                });
+
+            modelBuilder.Entity<UserRole>().HasData(
+                new UserRole
+                {
+                    UserId = Guid.Parse("d3f9a7c2-8b1e-4f3a-9c2a-7e4f9a1b2c3d"),
+                    RoleId = 1,
+                    AssignedAt = new DateTime(2025, 10, 20, 0, 0, 0, 0),
+                    AssignedBy = null
                 });
         }
     }

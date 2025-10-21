@@ -1,6 +1,6 @@
 using System;
 
-namespace AirlineReservation.src.AirlineReservation.Domain.Models
+namespace AirlineReservation.src.AirlineReservation.Domain.Entites
 {
     public class AuditLog
     {

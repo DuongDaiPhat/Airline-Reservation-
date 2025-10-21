@@ -336,3 +336,6 @@ D:\Git\HKI_Năm3\Lập trình trực quan\Airline-Reservation-\AirlineReservatio
 D:\Git\HKI_Năm3\Lập trình trực quan\Airline-Reservation-\AirlineReservation\bin\Debug\net8.0-windows\runtimes\win-x86\native\libSkiaSharp.dll
 D:\Git\HKI_Năm3\Lập trình trực quan\Airline-Reservation-\AirlineReservation\obj\Debug\net8.0-windows\AirlineReservation.src.AirlineReservation.Presentation__WinForms_.Views.Forms.User.MainForm.resources
 D:\Git\HKI_Năm3\Lập trình trực quan\Airline-Reservation-\AirlineReservation\obj\Debug\net8.0-windows\AirlineReservation.src.AirlineReservation.Presentation__WinForms_.Views.Forms.Staff.FlightListPopup.resources
+D:\Git\HKI_Năm3\Lập trình trực quan\Airline-Reservation-\AirlineReservation\obj\Debug\net8.0-windows\AirlineReservation.src.AirlineReservation.Presentation__WinForms_.Views.Forms.Common.ForgotPassword.resources
+D:\Git\HKI_Năm3\Lập trình trực quan\Airline-Reservation-\AirlineReservation\obj\Debug\net8.0-windows\AirlineReservation.src.AirlineReservation.Presentation__WinForms_.Views.UserControls.HeaderControl.resources
+D:\Git\HKI_Năm3\Lập trình trực quan\Airline-Reservation-\AirlineReservation\bin\Debug\net8.0-windows\BCrypt.Net-Next.dll

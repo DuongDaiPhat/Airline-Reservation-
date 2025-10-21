@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace AirlineReservation.src.AirlineReservation.Presentation__WinForms_.Views.Forms.Common
+namespace AirlineReservation.src.AirlineReservation.Presentation__WinForms_.Views.UserControls
 {
-    public partial class SignInForm : Form
+    public partial class HeaderControl : UserControl
     {
-        public SignInForm()
+        public HeaderControl()
         {
             InitializeComponent();
         }
