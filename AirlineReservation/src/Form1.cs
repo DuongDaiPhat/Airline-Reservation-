@@ -18,7 +18,14 @@ namespace AirlineReservation.src
             InitializeComponent();
             HeaderControl header = new HeaderControl();
             header.Dock = DockStyle.Top;
-            this.Controls.Add(header);
+            panelHeader.Controls.Add(header);
+            EmployeeDashboard dashboard = new EmployeeDashboard
+            {
+                Dock = DockStyle.Fill
+            };
+            panelContent.Controls.Clear();
+            panelContent.Controls.Add(dashboard);
+            //await dashboard.LoadDashboardDataAsync();
         }
     }
 }

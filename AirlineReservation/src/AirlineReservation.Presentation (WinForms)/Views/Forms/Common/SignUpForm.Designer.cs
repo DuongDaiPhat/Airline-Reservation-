@@ -401,7 +401,7 @@ namespace AirlineReservation.src.AirlineReservation.Presentation__WinForms_.View
             // 
             // vector
             // 
-            vector.Image = Properties.Resources.earth_new1;
+            vector.Image = Properties.Resources.earth_new;
             vector.Location = new Point(465, 37);
             vector.Name = "vector";
             vector.Size = new Size(303, 294);
