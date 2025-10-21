@@ -1,8 +1,8 @@
-using AirlineReservation.src.AirlineReservation.Infrastructure.Models;
+using AirlineReservation.src.AirlineReservation.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
-namespace AirlineReservation.src.AirlineReservation.Infrastructure.Models
+namespace AirlineReservation.src.AirlineReservation.Domain.Entities
 {
     public class TicketConfiguration : IEntityTypeConfiguration<Ticket>
     {

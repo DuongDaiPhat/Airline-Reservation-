@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AirlineReservation.src.AirlineReservation.Presentation__WinForms_.Views.UserControls;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +16,9 @@ namespace AirlineReservation.src
         public Form1()
         {
             InitializeComponent();
+            HeaderControl header = new HeaderControl();
+            header.Dock = DockStyle.Top;
+            this.Controls.Add(header);
         }
     }
 }
