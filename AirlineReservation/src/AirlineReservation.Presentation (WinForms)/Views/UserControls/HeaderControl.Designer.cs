@@ -209,7 +209,7 @@ namespace AirlineReservation.src.AirlineReservation.Presentation__WinForms_.View
             guna2Button3.FillColor = Color.White;
             guna2Button3.Font = new Font("Fz Poppins SemBd", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             guna2Button3.ForeColor = Color.Black;
-            guna2Button3.Image = Resources.right_arrow1;
+            guna2Button3.Image = Resources.right_arrow;
             guna2Button3.ImageAlign = HorizontalAlignment.Right;
             guna2Button3.ImageOffset = new Point(8, -1);
             guna2Button3.Location = new Point(3, 19);

@@ -17,7 +17,7 @@ namespace AirlineReservation
             ApplicationConfiguration.Initialize();
             using var db = Connection.GetDbContext();
             //new Form1() new SignInForm(db)
-            Application.Run(new Form1());
+            Application.Run(new SignInForm(db));
         }
     }
 }

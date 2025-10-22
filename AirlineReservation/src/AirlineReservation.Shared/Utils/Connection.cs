@@ -10,7 +10,7 @@ namespace AirlineReservation.src.AirlineReservation.Shared.Utils
 {
     internal class Connection
     {
-        private static readonly string _connStr = "Server=ADMIN-PC;Database=demo;User Id=sa;Password=12345;TrustServerCertificate=True;";
+        private static readonly string _connStr = "Server=EMKHA\\MSSQLSERVER01;Database=AirlineReservationSystem;User Id=sa;Password=Kha@1205;TrustServerCertificate=True";
 
         public static AirlineReservationDbContext GetDbContext()
         {
