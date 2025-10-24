@@ -73,16 +73,6 @@ namespace AirlineReservation.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap bacHo1 {
-            get {
-                object obj = ResourceManager.GetObject("bacHo1", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap discount_icon {
             get {
                 object obj = ResourceManager.GetObject("discount-icon", resourceCulture);
@@ -156,6 +146,16 @@ namespace AirlineReservation.Properties {
         internal static System.Drawing.Bitmap take_off_icon {
             get {
                 object obj = ResourceManager.GetObject("take-off-icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap theme {
+            get {
+                object obj = ResourceManager.GetObject("theme", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

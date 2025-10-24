@@ -52,6 +52,7 @@
             // 
             // guna2Panel1
             // 
+            guna2Panel1.BackgroundImage = Properties.Resources.theme;
             guna2Panel1.Controls.Add(guna2Panel3);
             guna2Panel1.Controls.Add(guna2Panel2);
             guna2Panel1.Controls.Add(guna2ComboBox1);

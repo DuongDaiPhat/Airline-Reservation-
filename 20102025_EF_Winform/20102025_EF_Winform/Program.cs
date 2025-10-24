@@ -1,7 +1,4 @@
-using AirlineReservation.Presentation__WinForms_.Views.Forms.User;
-using AirlineReservation.src.AirlineReservation.Presentation__WinForms_.Views.Forms.Common;
-
-namespace AirlineReservation
+namespace _20102025_EF_Winform
 {
     internal static class Program
     {
@@ -14,7 +11,7 @@ namespace AirlineReservation
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
-            Application.Run(new MainUserForm());
+            Application.Run(new Form1());
         }
     }
 }
