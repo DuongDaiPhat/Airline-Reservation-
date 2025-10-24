@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AirlineReservation.src.AirlineReservation.Presentation__WinForms_.Views.UserControls;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +16,16 @@ namespace AirlineReservation.src
         public Form1()
         {
             InitializeComponent();
+            HeaderControl header = new HeaderControl();
+            header.Dock = DockStyle.Top;
+            panelHeader.Controls.Add(header);
+            EmployeeDashboard dashboard = new EmployeeDashboard
+            {
+                Dock = DockStyle.Fill
+            };
+            panelContent.Controls.Clear();
+            panelContent.Controls.Add(dashboard);
+            //await dashboard.LoadDashboardDataAsync();
         }
     }
 }
