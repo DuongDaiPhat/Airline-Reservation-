@@ -609,7 +609,7 @@ namespace AirlineReservation.src.AirlineReservation.Presentation__WinForms_.View
             guna2ShadowPanel2.Controls.Add(lblCalCancelled);
             guna2ShadowPanel2.Controls.Add(lblCalPassengers);
             guna2ShadowPanel2.FillColor = Color.Snow;
-            guna2ShadowPanel2.Location = new Point(25, 347);
+            guna2ShadowPanel2.Location = new Point(25, 344);
             guna2ShadowPanel2.Name = "guna2ShadowPanel2";
             guna2ShadowPanel2.Radius = 10;
             guna2ShadowPanel2.ShadowColor = Color.Black;

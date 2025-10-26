@@ -57,7 +57,7 @@ namespace AirlineReservation.src.AirlineReservation.Presentation__WinForms_.View
                 MessageBox.Show("Vui lòng điền thông tin yêu câu.", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
-            if (!validation.IsValidGoogleEmail(emailTB.Text)) return;
+            if (!validation.IsValidEmail(emailTB.Text)) return;
             if (!validation.IsValidPhoneNumber(numberTB.Text)) return;
             if (!validation.IsValidPassword(passwordTB.Text)) return;
             if (!Equals(passwordTB.Text, confirmPasswordTB.Text))
