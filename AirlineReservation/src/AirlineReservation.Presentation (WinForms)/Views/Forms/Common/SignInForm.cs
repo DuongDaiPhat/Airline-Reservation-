@@ -1,6 +1,8 @@
 ﻿using AirlineReservation.src.AirlineReservation.Infrastructure.Context;
+using AirlineReservation.src.AirlineReservation.Presentation__WinForms_.Helpers;
 using AirlineReservation.src.AirlineReservation.Shared.Utils;
 using Guna.UI2.WinForms;
+using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -16,15 +18,12 @@ namespace AirlineReservation.src.AirlineReservation.Presentation__WinForms_.View
 {
     public partial class SignInForm : Form
     {
-        private readonly Validation validation = new Validation();
-        private readonly PasswordHasher hasher = new PasswordHasher();
-        private readonly AirlineReservationDbContext dbContext;
+        private readonly Validation _validation = new Validation();
 
         public SignInForm(AirlineReservationDbContext db)
         {
 
             InitializeComponent();
-            dbContext = db;
             this.StartPosition = FormStartPosition.CenterScreen;
             this.Size = new Size(1280, 800);
             //this.Load += SignInForm_Load;
@@ -57,43 +56,56 @@ namespace AirlineReservation.src.AirlineReservation.Presentation__WinForms_.View
 
         private void SignInBtn_Click(object sender, EventArgs e)
         {
-            // 1. Validate thông tin đầu vào
-            if (emailTB.Text == "" && passwordTB.Text == "")
+            try
             {
-                MessageBox.Show("Vui lòng điền thông tin yêu câu.", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                return;
-            }
-            if (!validation.IsValidGoogleEmail(emailTB.Text)) return;
-            if (!validation.IsValidPassword(passwordTB.Text)) return;
+                // 🔹 1. Kiểm tra input
+                if (string.IsNullOrWhiteSpace(emailTB.Text) || string.IsNullOrWhiteSpace(passwordTB.Text))
+                {
+                    MessageBox.Show("Vui lòng điền đầy đủ thông tin.", "Thiếu thông tin", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    return;
+                }
 
-            // 2. Lấy user từ DB theo email
-            var user = dbContext.Users.SingleOrDefault(t => t.Email == emailTB.Text.Trim());
-            if (user == null)
-            {
-                MessageBox.Show("Email không tồn tại trong hệ thống.", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                return;
-            }
+                if (!_validation.IsValidEmail(emailTB.Text)) return;
+                if (!_validation.IsValidPassword(passwordTB.Text)) return;
 
-            // 3. Kiểm tra mật khẩu
-            if (!hasher.VerifyPassword(passwordTB.Text, user.PasswordHash))
-            {
-                MessageBox.Show("Sai mật khẩu.", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                return;
-            }
+                // 🔹 2. Gọi controller để đăng nhập
+                var user = Provider.UserController.Login(emailTB.Text.Trim(), passwordTB.Text.Trim());
 
-            // 4. hộp thoại tb đăng nhập thành công
-            DialogResult result = MessageBox.Show(
-                "Đăng nhập thành công!",
-                "Thông báo",
-                MessageBoxButtons.OK,
-                MessageBoxIcon.Information
-            );
+                // 🔹 3. Xử lý kết quả
+                if (user == null)
+                {
+                    MessageBox.Show("Sai email hoặc mật khẩu.", "Đăng nhập thất bại", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    return;
+                }
 
-            if (result == DialogResult.OK)
-            {
-                Form1 form1 = new Form1();
-                form1.Show();
+                if (!user.IsActive)
+                {
+                    MessageBox.Show("Tài khoản đã bị khóa. Vui lòng liên hệ quản trị viên.", "Cảnh báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    return;
+                }
+
+                // 🔹 4. Đăng nhập thành công
+                MessageBox.Show($"Xin chào {user.FullName}!", "Đăng nhập thành công", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                //// Ví dụ: nếu bạn có Dashboard riêng cho từng role
+                //if (user.UserRoles.Any(r => r.Role.RoleName == "Admin"))
+                //{
+                //    AdminDashboard adminDashboard = new AdminDashboard();
+                //    adminDashboard.Show();
+                //}
+                //else
+                //{
+                //    StaffDashboard staffDashboard = new StaffDashboard();
+                //    staffDashboard.Show();
+                //}
+                Form1 mainForm = new Form1();
+                mainForm.Show();
+
                 this.Hide();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Lỗi hệ thống", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
