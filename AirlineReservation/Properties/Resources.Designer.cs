@@ -63,6 +63,13 @@ namespace AirlineReservation.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap arrival_icon {
+            get {
+                object obj = ResourceManager.GetObject("arrival-icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+
+            }
+        }
         internal static System.Drawing.Bitmap aeroplane {
             get {
                 object obj = ResourceManager.GetObject("aeroplane", resourceCulture);
@@ -73,6 +80,13 @@ namespace AirlineReservation.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap discount_icon {
+            get {
+                object obj = ResourceManager.GetObject("discount-icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+
+            }
+        }
         internal static System.Drawing.Bitmap check {
             get {
                 object obj = ResourceManager.GetObject("check", resourceCulture);
@@ -203,6 +217,12 @@ namespace AirlineReservation.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap plane_icon {
+            get {
+                object obj = ResourceManager.GetObject("plane-icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
         internal static System.Drawing.Bitmap logo_blacktext1 {
             get {
                 object obj = ResourceManager.GetObject("logo_blacktext1", resourceCulture);
@@ -213,6 +233,12 @@ namespace AirlineReservation.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap plane_ticket_icon {
+            get {
+                object obj = ResourceManager.GetObject("plane-ticket-icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
         internal static System.Drawing.Bitmap logo_whitetext {
             get {
                 object obj = ResourceManager.GetObject("logo_whitetext", resourceCulture);
@@ -223,6 +249,12 @@ namespace AirlineReservation.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap seats_icon {
+            get {
+                object obj = ResourceManager.GetObject("seats-icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
         internal static System.Drawing.Bitmap logo_whitetext1 {
             get {
                 object obj = ResourceManager.GetObject("logo_whitetext1", resourceCulture);
@@ -233,6 +265,12 @@ namespace AirlineReservation.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap swap {
+            get {
+                object obj = ResourceManager.GetObject("swap", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
         internal static System.Drawing.Bitmap menu {
             get {
                 object obj = ResourceManager.GetObject("menu", resourceCulture);
@@ -243,6 +281,12 @@ namespace AirlineReservation.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap take_off_icon {
+            get {
+                object obj = ResourceManager.GetObject("take-off-icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
         internal static System.Drawing.Bitmap microsoft {
             get {
                 object obj = ResourceManager.GetObject("microsoft", resourceCulture);
@@ -303,6 +347,12 @@ namespace AirlineReservation.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap ticket_class_icon {
+            get {
+                object obj = ResourceManager.GetObject("ticket-class-icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
         internal static System.Drawing.Bitmap theme1 {
             get {
                 object obj = ResourceManager.GetObject("theme1", resourceCulture);
@@ -313,6 +363,12 @@ namespace AirlineReservation.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap user_icon {
+            get {
+                object obj = ResourceManager.GetObject("user-icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
         internal static System.Drawing.Bitmap united_kingdom {
             get {
                 object obj = ResourceManager.GetObject("united-kingdom", resourceCulture);
