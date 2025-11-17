@@ -1,6 +1,7 @@
 using AirlineReservation.src;
 using AirlineReservation.src.AirlineReservation.Presentation__WinForms_.Views.Forms.Common;
 using AirlineReservation.src.AirlineReservation.Shared.Utils;
+using System.Runtime.CompilerServices;
 
 namespace AirlineReservation
 {
@@ -16,8 +17,8 @@ namespace AirlineReservation
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
             using var db = Connection.GetDbContext();
-            //new Form1() new SignInForm(db)
-            Application.Run(new Form1());
+            //new Form1() new SignInForm(db) new LoadingForm()
+            Application.Run(new SignInForm(db));
         }
     }
 }

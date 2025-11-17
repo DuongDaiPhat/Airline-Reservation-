@@ -71,6 +71,7 @@ namespace AirlineReservation.src.AirlineReservation.Presentation__WinForms_.View
             guna2Elipse2 = new Guna.UI2.WinForms.Guna2Elipse(components);
             guna2Elipse3 = new Guna.UI2.WinForms.Guna2Elipse(components);
             guna2Elipse4 = new Guna.UI2.WinForms.Guna2Elipse(components);
+            showPassword = new PictureBox();
             ((System.ComponentModel.ISupportInitialize)theme).BeginInit();
             form.SuspendLayout();
             panel3.SuspendLayout();
@@ -81,12 +82,13 @@ namespace AirlineReservation.src.AirlineReservation.Presentation__WinForms_.View
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)logo).BeginInit();
             ((System.ComponentModel.ISupportInitialize)vector).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)showPassword).BeginInit();
             SuspendLayout();
             // 
             // theme
             // 
             theme.CustomizableEdges = customizableEdges1;
-            theme.Image = Properties.Resources.theme;
+            theme.Image = Resources.theme;
             theme.ImageFlip = Guna.UI2.WinForms.Enums.FlipOrientation.Horizontal;
             theme.ImageRotate = 0F;
             theme.Location = new Point(-8, 371);
@@ -106,6 +108,7 @@ namespace AirlineReservation.src.AirlineReservation.Presentation__WinForms_.View
             // 
             form.BackColor = Color.White;
             form.BorderColor = Color.White;
+            form.Controls.Add(showPassword);
             form.Controls.Add(guna2Button1);
             form.Controls.Add(linkLabel1);
             form.Controls.Add(passwordTB);
@@ -243,7 +246,7 @@ namespace AirlineReservation.src.AirlineReservation.Presentation__WinForms_.View
             // 
             // pictureBox3
             // 
-            pictureBox3.Image = Properties.Resources.microsoft;
+            pictureBox3.Image = Resources.microsoft;
             pictureBox3.Location = new Point(7, 8);
             pictureBox3.Name = "pictureBox3";
             pictureBox3.Size = new Size(30, 30);
@@ -263,7 +266,7 @@ namespace AirlineReservation.src.AirlineReservation.Presentation__WinForms_.View
             // 
             // pictureBox2
             // 
-            pictureBox2.Image = Properties.Resources.github;
+            pictureBox2.Image = Resources.github;
             pictureBox2.Location = new Point(7, 8);
             pictureBox2.Name = "pictureBox2";
             pictureBox2.Size = new Size(30, 30);
@@ -295,7 +298,7 @@ namespace AirlineReservation.src.AirlineReservation.Presentation__WinForms_.View
             // 
             // pictureBox1
             // 
-            pictureBox1.Image = Properties.Resources.google;
+            pictureBox1.Image = Resources.google;
             pictureBox1.Location = new Point(16, 8);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(30, 30);
@@ -361,7 +364,7 @@ namespace AirlineReservation.src.AirlineReservation.Presentation__WinForms_.View
             // 
             // logo
             // 
-            logo.Image = Properties.Resources.logo;
+            logo.Image = Resources.logo;
             logo.Location = new Point(19, -13);
             logo.Name = "logo";
             logo.Size = new Size(217, 132);
@@ -371,7 +374,7 @@ namespace AirlineReservation.src.AirlineReservation.Presentation__WinForms_.View
             // 
             // vector
             // 
-            vector.Image =  Properties.Resources.earth_new1;
+            vector.Image = Resources.earth_new1;
             vector.Location = new Point(465, 37);
             vector.Name = "vector";
             vector.Size = new Size(303, 294);
@@ -400,7 +403,6 @@ namespace AirlineReservation.src.AirlineReservation.Presentation__WinForms_.View
             label2.Size = new Size(280, 62);
             label2.TabIndex = 8;
             label2.Text = "TRAVEL WORLD";
-            label2.Click += label2_Click;
             // 
             // label3
             // 
@@ -450,6 +452,17 @@ namespace AirlineReservation.src.AirlineReservation.Presentation__WinForms_.View
             guna2Elipse4.BorderRadius = 18;
             guna2Elipse4.TargetControl = panel3;
             // 
+            // showPassword
+            // 
+            showPassword.Image = Resources.view;
+            showPassword.Location = new Point(327, 424);
+            showPassword.Name = "showPassword";
+            showPassword.Size = new Size(35, 35);
+            showPassword.SizeMode = PictureBoxSizeMode.Zoom;
+            showPassword.TabIndex = 34;
+            showPassword.TabStop = false;
+            showPassword.Click += showPassword_Click;
+            // 
             // SignInForm
             // 
             AccessibleRole = AccessibleRole.None;
@@ -480,6 +493,7 @@ namespace AirlineReservation.src.AirlineReservation.Presentation__WinForms_.View
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)logo).EndInit();
             ((System.ComponentModel.ISupportInitialize)vector).EndInit();
+            ((System.ComponentModel.ISupportInitialize)showPassword).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -517,5 +531,6 @@ namespace AirlineReservation.src.AirlineReservation.Presentation__WinForms_.View
         private LinkLabel linkLabel1;
         private Guna.UI2.WinForms.Guna2TextBox passwordTB;
         private Label label13;
+        private PictureBox showPassword;
     }
 }

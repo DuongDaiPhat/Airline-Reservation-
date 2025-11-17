@@ -25,22 +25,16 @@ namespace AirlineReservation.src.AirlineReservation.Presentation__WinForms_.View
             dbContext = db;
             this.StartPosition = FormStartPosition.CenterScreen;
             this.Size = new Size(1280, 800);
-            //this.Load += SignUpForm_Load;
+            this.Load += SignUpForm_Load;
         }
 
-        //public void SignUpForm_Load(object sender, EventArgs e)
-        //{
-        //    logo.Image = Properties.Resources.logo_whitetext;
-        //    theme.Image = Properties.Resources.theme;
-        //    vector.Image = Properties.Resources.earth;
-        //    form.BackColor = Color.White;
-
-        //    Bitmap icon = new Bitmap(vector.Image);
-        //    icon.RotateFlip(RotateFlipType.RotateNoneFlipX);
-        //    vector.Image = icon;
-        //    vector.SendToBack();
-
-        //}
+        public void SignUpForm_Load(object sender, EventArgs e)
+        {
+            passwordTB.UseSystemPasswordChar = true; // mặc định che
+            confirmPasswordTB.UseSystemPasswordChar = true;
+            showPassword.Image = Properties.Resources.view; // mặc định eye open
+            showConfirmedPassword.Image = Properties.Resources.view;
+        }
 
         private void SignIn_Click(object sender, EventArgs e)
         {
@@ -88,7 +82,7 @@ namespace AirlineReservation.src.AirlineReservation.Presentation__WinForms_.View
                 UserId = newUser.UserId,
                 RoleId = 3,
                 AssignedAt = DateTime.Now,
-                AssignedBy = Guid.Parse("C3F4E0AA-3736-4A30-A17A-688E9DEB5E18")
+                AssignedBy = Guid.Parse("D3F9A7C2-8B1E-4F3A-9C2A-7E4F9A1B2C3D")
             };
             db.UserRoles.Add(userRole);
 
@@ -108,6 +102,38 @@ namespace AirlineReservation.src.AirlineReservation.Presentation__WinForms_.View
                 SignInForm signin = new SignInForm(db);
                 signin.Show();
                 this.Hide();
+            }
+        }
+
+        private void showPassword_Click(object sender, EventArgs e)
+        {
+            if (passwordTB.UseSystemPasswordChar)
+            {
+                // Hiện mật khẩu
+                passwordTB.UseSystemPasswordChar = false;
+                showPassword.Image = Properties.Resources.hide;
+            }
+            else
+            {
+                // Ẩn mật khẩu
+                passwordTB.UseSystemPasswordChar = true;
+                showPassword.Image = Properties.Resources.view;
+            }
+        }
+
+        private void showConfirmedPassword_Click(object sender, EventArgs e)
+        {
+            if (confirmPasswordTB.UseSystemPasswordChar)
+            {
+                // Hiện mật khẩu
+                confirmPasswordTB.UseSystemPasswordChar = false;
+                showConfirmedPassword.Image = Properties.Resources.hide;
+            }
+            else
+            {
+                // Ẩn mật khẩu
+                confirmPasswordTB.UseSystemPasswordChar = true;
+                showConfirmedPassword.Image = Properties.Resources.view;
             }
         }
     }

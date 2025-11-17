@@ -47,6 +47,8 @@ namespace AirlineReservation.src.AirlineReservation.Presentation__WinForms_.View
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges15 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges16 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             form = new Guna.UI2.WinForms.Guna2Panel();
+            showPassword = new PictureBox();
+            showConfirmedPassword = new PictureBox();
             label10 = new Label();
             label6 = new Label();
             label7 = new Label();
@@ -76,6 +78,8 @@ namespace AirlineReservation.src.AirlineReservation.Presentation__WinForms_.View
             label3 = new Label();
             label1 = new Label();
             form.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)showPassword).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)showConfirmedPassword).BeginInit();
             ((System.ComponentModel.ISupportInitialize)theme).BeginInit();
             ((System.ComponentModel.ISupportInitialize)logo).BeginInit();
             ((System.ComponentModel.ISupportInitialize)vector).BeginInit();
@@ -85,6 +89,8 @@ namespace AirlineReservation.src.AirlineReservation.Presentation__WinForms_.View
             // 
             form.BackColor = Color.White;
             form.BorderColor = Color.White;
+            form.Controls.Add(showPassword);
+            form.Controls.Add(showConfirmedPassword);
             form.Controls.Add(label10);
             form.Controls.Add(label6);
             form.Controls.Add(label7);
@@ -111,6 +117,28 @@ namespace AirlineReservation.src.AirlineReservation.Presentation__WinForms_.View
             form.ShadowDecoration.Shadow = new Padding(0, 0, 20, 15);
             form.Size = new Size(420, 600);
             form.TabIndex = 13;
+            // 
+            // showPassword
+            // 
+            showPassword.Image = Resources.view;
+            showPassword.Location = new Point(327, 387);
+            showPassword.Name = "showPassword";
+            showPassword.Size = new Size(35, 35);
+            showPassword.SizeMode = PictureBoxSizeMode.Zoom;
+            showPassword.TabIndex = 34;
+            showPassword.TabStop = false;
+            showPassword.Click += showPassword_Click;
+            // 
+            // showConfirmedPassword
+            // 
+            showConfirmedPassword.Image = Resources.hide;
+            showConfirmedPassword.Location = new Point(327, 465);
+            showConfirmedPassword.Name = "showConfirmedPassword";
+            showConfirmedPassword.Size = new Size(35, 35);
+            showConfirmedPassword.SizeMode = PictureBoxSizeMode.Zoom;
+            showConfirmedPassword.TabIndex = 33;
+            showConfirmedPassword.TabStop = false;
+            showConfirmedPassword.Click += showConfirmedPassword_Click;
             // 
             // label10
             // 
@@ -377,7 +405,7 @@ namespace AirlineReservation.src.AirlineReservation.Presentation__WinForms_.View
             // theme
             // 
             theme.CustomizableEdges = customizableEdges15;
-            theme.Image = Properties.Resources.theme;
+            theme.Image = Resources.theme;
             theme.ImageFlip = Guna.UI2.WinForms.Enums.FlipOrientation.Horizontal;
             theme.ImageRotate = 0F;
             theme.Location = new Point(-8, 371);
@@ -390,7 +418,7 @@ namespace AirlineReservation.src.AirlineReservation.Presentation__WinForms_.View
             // 
             // logo
             // 
-            logo.Image = Properties.Resources.logo;
+            logo.Image = Resources.logo;
             logo.Location = new Point(19, -13);
             logo.Margin = new Padding(3, 2, 3, 2);
             logo.Name = "logo";
@@ -401,7 +429,7 @@ namespace AirlineReservation.src.AirlineReservation.Presentation__WinForms_.View
             // 
             // vector
             // 
-            vector.Image = Properties.Resources.earth_new1;
+            vector.Image = Resources.earth_new1;
             vector.Location = new Point(465, 37);
             vector.Name = "vector";
             vector.Size = new Size(303, 294);
@@ -484,6 +512,8 @@ namespace AirlineReservation.src.AirlineReservation.Presentation__WinForms_.View
             Text = "SignUpForm";
             form.ResumeLayout(false);
             form.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)showPassword).EndInit();
+            ((System.ComponentModel.ISupportInitialize)showConfirmedPassword).EndInit();
             ((System.ComponentModel.ISupportInitialize)theme).EndInit();
             ((System.ComponentModel.ISupportInitialize)logo).EndInit();
             ((System.ComponentModel.ISupportInitialize)vector).EndInit();
@@ -522,5 +552,7 @@ namespace AirlineReservation.src.AirlineReservation.Presentation__WinForms_.View
         private Label label2;
         private Label label3;
         private Label label1;
+        private PictureBox showPassword;
+        private PictureBox showConfirmedPassword;
     }
 }
