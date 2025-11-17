@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AirlineReservation.src.AirlineReservation.Presentation__WinForms_.Assets.Color_Palettes
+namespace AirlineReservation.Presentation__WinForms_.Assets.Color_Palettes
 {
     internal class Color
     {
